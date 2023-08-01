@@ -10,12 +10,20 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .logo {
     display: flex;
-    margin-top: 50px
+    margin-top: 50px;
+
+
+}
+
+.gamer {
+    padding-top: 5px;
 }
 
 .g {
@@ -39,7 +47,7 @@
 .logo h3 {
     text-align: center;
     font-family: Work Sans;
-    font-size: 45px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -51,7 +59,7 @@
 
 .banner-container {
     background-image: url("./images/Group\ 14.png");
-    width: 901px;
+    width: 600px;
     height: 700px;
     flex-shrink: 0;
 
@@ -60,7 +68,7 @@
 .banner-name {
     color: #0B0223;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -87,7 +95,7 @@
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100%;
     line-height: normal;
     text-transform: lowercase;
 }
@@ -97,7 +105,7 @@
     font-size: 20px;
     font-weight: 600;
     display: inline-flex;
-    padding: 21px 40px;
+    /* padding: 21px 40px; */
     align-items: flex-start;
     gap: 10px;
     border-radius: 48px;
@@ -109,9 +117,310 @@
     border-radius: 48px;
     background: #4EC5F7;
     display: inline-flex;
-    padding: 21px 40px;
+    /* padding: 21px 40px; */
     align-items: flex-start;
-    gap: 10px;
+    /* gap: 10px; */
     color: #FFF;
     font-size: 20px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.main-title-discription {
+    color: #534C64;
+    text-align: center;
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.funny {
+    color: #FF42A5;
+}
+
+section {
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.four-img {
+    width: 300px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 200px;
+}
+
+.title-container {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.title-discription {
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.play {
+    color: #F948B2;
+}
+
+
+.relativ {
+    position: relative;
+
+
+}
+
+
+
+.cat {
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+}
+
+.absolute {
+    position: absolute;
+    top: 380px;
+    right: 450px;
+
+}
+
+.five-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 30px;
+}
+
+.two-item {
+    display: flex;
+    gap: 10px;
+}
+
+.two-item:hover {
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+}
+
+.four-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+footer {
+    margin-top: 70px;
+    /* width: 1170px; */
+    height: 636px;
+    flex-shrink: 0;
+    background-color: #0B0223;
+    ;
+}
+
+.second-logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gamer-two {
+    width: 85px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.second-logo h3 {
+    color: #FFF;
+
+}
+
+.six-tag {
+    display: flex;
+    color: #FFF;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.three-logos {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 50px;
+
+}
+
+.four-tag {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 30px;
+
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .menu,
+    .banner,
+    .main-title,
+    .container,
+    .five-item,
+    .four-item,
+    .six-tag {
+        flex-direction: column;
+    }
+
+    .nav-container {
+
+        /* padding-right: 10px; */
+    }
+
+
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .banner-name {
+        font-size: 1rem;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        justify-items: flex-start;
+        margin-left: 100px;
+        font-size: 10px;
+
+    }
+
+
+    .banner-container {
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+        align-items: end;
+        margin-top: 100px;
+
+    }
+
+    .banner-discription {
+        word-wrap: break-word;
+        font-weight: 200;
+        font-size: 10px;
+    }
+
+    .farm {
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+        align-items: center;
+    }
+
+    .title-container {
+        font-size: 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .img-container img {
+        width: 70%;
+        height: auto;
+
+    }
+
+    .hors-img {
+        height: 300px;
+    }
+
+    .cat {
+        display: none;
+    }
+
+    .title-discription {
+        text-align: left;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .main-title {
+        margin-left: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main-title-discription {
+        font-size: 10px;
+    }
+
+    .four-img {
+        height: 250px;
+        width: 250px;
+    }
+
+
+
 }
